@@ -83,7 +83,7 @@ The screen width is 500 pixels, giving horizontal boundaries of -250 and +250.
 I selected -230 as the starting coordinate and +230 as the finishing threshold to maintain a margin from the screen edges.
 
 My approximate calculation was:
-
+The 20 + 20 represents the approximate 20-pixel width of the turtle's square bounding area, divided by two to account for its half-width when positioning its centre.
 `500 / 2 - (20 + 20) / 2 = 230`
 
 These are chosen racing boundaries rather than the actual screen edges.
